@@ -19,7 +19,6 @@ def convert_ogg_to_mp3(directory):
     # Convert with progress bar
     for ogg_path in tqdm(ogg_files, desc="Converting files", unit="file"):
         mp3_path = os.path.splitext(ogg_path)[0] + ".mp3"
-        print(mp3_path)
 
         # Convert .ogg to .mp3
         audio = AudioSegment.from_ogg(ogg_path)
