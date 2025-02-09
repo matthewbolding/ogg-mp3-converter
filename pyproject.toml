@@ -1,0 +1,10 @@
+[project]
+name = "ogg-mp3-converter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pydub>=0.25.1",
+    "tqdm>=4.67.1",
+]
